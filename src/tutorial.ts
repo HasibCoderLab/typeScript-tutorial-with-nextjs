@@ -75,3 +75,14 @@ image:"wth36t3453dnkvb.com ",
 video:"http/wkjuhgteruiiiii.com",
 likes:45
 }
+
+
+
+
+
+
+type mathFn = (a:number , b:number) => number
+
+let add:mathFn = (a,b) =>{
+    return a
+}
