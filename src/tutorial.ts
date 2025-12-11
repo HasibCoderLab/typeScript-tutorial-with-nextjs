@@ -33,7 +33,13 @@ enum role {
 }
 // role = "Hi"
 
+// Personal Type
 
+type hasib = number| boolean
+
+let c:hasib;
+c=18;
+c=true
 
 
 
