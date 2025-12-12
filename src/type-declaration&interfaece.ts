@@ -16,8 +16,25 @@ interface User {
 
 
 
+// =========== combain for Type => use  = >&
+
+
+
+type A = {
+    a:number,
+   
+}
+
+type B ={
+     b:string;
+}
+
+// let obj:A = {
+//     a:48,  /=> Not combain
+//     b:"GS"
+// }
+
+type AB = A & B
+
+
 // =========== combain for interface => extends
-
-
-
-
