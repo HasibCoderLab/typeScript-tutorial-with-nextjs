@@ -105,3 +105,18 @@ function forStr<T>(a:T,b:T):T{
     return a;
 }
 forStr("Hi" , "Hasib");
+
+
+
+//   =============== TypeScript Generics interface , object==============
+
+interface users<T>{
+    name:string,
+    age:T
+   
+}
+
+let obj:users<number>={
+    name:"Hasib",
+    age:18
+}
