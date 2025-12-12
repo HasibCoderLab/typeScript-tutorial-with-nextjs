@@ -6,3 +6,18 @@ let a : number ;
 a =40;
 
 
+interface User {
+    name:string,
+    age:number,
+    email?:string,
+    readonly role: string;
+
+}
+
+
+
+// =========== combain for interface => extends
+
+
+
+
