@@ -38,3 +38,16 @@ type AB = A & B
 
 
 // =========== combain for interface => extends
+
+interface X{
+    x:number
+}
+
+interface Z extends X{
+    z:string
+}
+
+let obj1:Z ={
+    x:48,
+    z:"Hasib"
+}
